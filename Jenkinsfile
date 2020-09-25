@@ -33,6 +33,10 @@ pipeline {
 		failure{
 			echo " Run when it fails"
 		}
+
+		changed{
+			echo " Run when it fails"
+		}
 	}
 }
 
