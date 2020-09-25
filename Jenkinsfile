@@ -5,23 +5,24 @@ pipeline {
 	stages {
 		stage('Build')
 		{
-		Steps {
-			echo "Build
-		}
+			steps {
+				echo "Build
+			}
 		}
 
 		stage('Test')
-			{
-		Steps {
-			echo "Test"
-			}
-			}
+		{
+			steps {
+				echo "Test"
+				}
+		}
 
 		stage('Integration Test')
-			{
-		Steps {
-			echo "Integration Test"
-			}}
+		{
+			steps {
+				echo "Integration Test"
+			}
+		}
 	}
 	}
 
